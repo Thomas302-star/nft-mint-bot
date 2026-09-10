@@ -1,0 +1,23 @@
+{
+  "name": "nft-mint-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Private Telegram bot foundation.",
+  "scripts": {
+    "dev": "tsx src/bot.ts",
+    "build": "tsc",
+    "start": "node dist/bot.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "grammy": "^1.38.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
